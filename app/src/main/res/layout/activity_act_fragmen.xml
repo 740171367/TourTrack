@@ -4,15 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.st.www.tourtrack.MainActivity">
-
+    tools:context="com.st.www.tourtrack.act.ActFragmen">
     <TextView
-        android:id="@+id/id_tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-    <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="hello"/>
+        android:layout_height="match_parent"
+        android:text="hello"
+        android:background="#ff1"/>
 </LinearLayout>
